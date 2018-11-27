@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <title>按钮的下拉菜单</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lib/bootstrap-3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--下拉菜单-->
+    <div class="btn-group">
+        <button type="button" class="btn btn-defalut dropdown-toggle" data-toggle="dropdown">默认<span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">功能</a></li>
+            <li><a href="#">另一个功能</a></li>
+            <li><a href="#">其他</a></li>
+            <li class="divider"></li>
+            <li><a href="#">分离的链接</a></li>
+        </ul>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">原始<span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">功能</a></li>
+            <li><a href="#">另一个功能</a></li>
+            <li><a href="#">其他</a></li>
+            <li class="divider"></li>
+            <li><a href="#">分离的链接</a></li>
+        </ul>
+    </div>
+    <!--分割按钮的下拉菜单-->
+    <div class="btn-group">
+        <button type="button" class="btn btn-default">默认</button>
+        <button type="button" class="btn btn-default drop-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">切换下拉菜单</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">功能</a></li>
+            <li><a href="#">另一个功能</a></li>
+            <li><a href="3">其他</a></li>
+            <li class="divider"></li>
+            <li><a href="#">分离的链接</a></li>
+        </ul>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">原始</button>
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">切换下拉菜单</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">功能</a></li>
+            <li><a href="#">另一个功能</a></li>
+            <li><a href="#">其他</a></li>
+            <li class="divider"></li>
+            <li><a href="#">分离的链接</a></li>
+        </ul>
+    </div>
+    <!--按钮下拉菜单的大小-->
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown">默认 <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">功能</a></li>
+            <li><a href="#">另一个功能</a></li>
+            <li><a href="#">其他</a></li>
+            <li class="divider"></li>
+            <li><a href="#">分离的链接</a></li>
+        </ul>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown">原始 <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">功能</a></li>
+            <li><a href="#">另一个功能</a></li>
+            <li><a href="#">其他</a></li>
+            <li class="divider"></li>
+            <li><a href="#">分离的链接</a></li>
+        </ul>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-success dropdown-toggle btn-xs" data-toggle="dropdown">成功 <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">功能</a></li>
+            <li><a href="#">另一个功能</a></li>
+            <li><a href="#">其他</a></li>
+            <li class="divider"></li>
+            <li><a href="#">分离的链接</a></li>
+        </ul>
+    </div>
+</body>
+<script src="../lib/jquery/jquery-3.3.1.min.js"></script>
+<script src="../lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+</html>
